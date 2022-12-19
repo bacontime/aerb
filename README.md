@@ -18,7 +18,7 @@ The first problem was that while Leaflet has support for rectangularly looping m
 Fortunately, a hexagonal tiling can be represented with rectangular tiles by making each rectangular tile have two copies of every point in the hex tiling.
 This results in a map which looks like this:
 
-![Map of Aerb made rectangular with duplication techniques.](./aerbimg/AerbTileSmall.webp)
+![Map of Aerb made rectangular with duplication techniques.](./aerbimg/AerbTileVerySmall.webp)
 
 If this image is rectangularly tiled, then the continents on it will be hexagonally tiled. Great!
 If we don't need a *gigantic* map or anything fancy, we can set this as a background image to some element and call it a day.
